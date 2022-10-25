@@ -2,6 +2,9 @@ package com.ex.circular;
 
 import com.ex.Employee;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class CircularMain {
     public static void main(String[] args) {
         Employee janeJones = new Employee("Jane", "Jones", 123);

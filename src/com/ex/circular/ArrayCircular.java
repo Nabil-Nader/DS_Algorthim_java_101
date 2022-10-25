@@ -20,14 +20,35 @@ public class ArrayCircular {
     public void add(Employee employee){
 
         //check to see if the queue is full -> back of queue will == array.length
-        if(back== queue.length){
+        if(size() == queue.length -1){
+            int numItem = size();
             Employee[]newArray = new Employee[2 * queue.length];
 
-            System.arraycopy(queue, 0, newArray, 0, 2 *queue.length);
+            System.arraycopy(queue, front, newArray, 0,  queue.length - front);
+            System.arraycopy(queue,0,newArray,queue.length - front,back);
             queue = newArray;
+            front = 0;
+            back = numItem;
         }
+        // 0 - jane 2 front  back
+        // 1 -   john 2-front
+        // 2 -  back2 -front
+        // 3 mike front
+        // 4    bull
+
+        //after we resize [front is set to be mick
+        // 0 mick
+        // 1 - bill
+        // 2 jane
+        // 3 john
+        // back
+
         queue[back] = employee;
-        back++;
+        if(back < queue.length - 1){
+            back ++;
+        }else{
+            back=0;
+        }
     }
 
     // now back is one, front is 0 -> 1 - 0 = 1 -> so we have one item on the queue
@@ -48,15 +69,21 @@ public class ArrayCircular {
         if(size()==0){
             front=0;
             back=0;
+        } else if (front == queue.length){
+            front=0;
         }
         return em;
     }
 
     public int size(){
-        return back - front;
+        if( front <= back) {
+            return back - front;
+        }else {
+            return back -front + queue.length;
+        }
     }
 
-    public Employee peel(){
+    public Employee peek(){
         if(size()==0) {
             throw  new NoSuchElementException();
         }
@@ -66,8 +93,16 @@ public class ArrayCircular {
 
 
     public void printQueue(){
-        for(int i = front ; i < back ; i ++){
-            System.out.println(queue[i]);
+        if( front <= back) {
+            for (int i = front; i < back; i++) {
+                System.out.println(queue[i]);
+            }
+        }else {
+            for (int i = front; i < queue.length; i++) {
+                System.out.println(queue[i]);
+            } for(int i = 0 ; i < back ; i++){
+                System.out.println(queue[i]);
+            }
         }
     }
 
