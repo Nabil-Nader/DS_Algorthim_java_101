@@ -11,7 +11,7 @@ public class HashMain {
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
         Employee billEnd = new Employee("Bill", "End", 78);
 
-        SimpleHashTable ht = new SimpleHashTable();
+        ChainHashTable ht = new ChainHashTable();
         ht.put(janeJones, "jones");
         ht.put(johnDoe, "doe");
         ht.put(mikeWilson, "wilson");
@@ -20,16 +20,16 @@ public class HashMain {
 //        ht.put(billEnd,"end");
 
 
-        ht.printHasTable();
-
+//        ht.printHasTable();
+//
         System.out.println("Retrieve an employee " + ht.get("smith"));
         System.out.println("Retrieve an employee " + ht.get("wilson"));
         ht.remove("wilson");
         ht.remove("jones");
         ht.printHasTable();
-
-        // here we can not find marry [Retrieve an employee null] due to find method, if we hit null we break our condition
-        System.out.println("Retrieve an employee " + ht.get("smith"));
+//
+//        // here we can not find marry [Retrieve an employee null] due to find method, if we hit null we break our condition
+//        System.out.println("Retrieve an employee " + ht.get("smith"));
 
 
     }
