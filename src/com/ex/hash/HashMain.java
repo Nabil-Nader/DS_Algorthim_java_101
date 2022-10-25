@@ -12,15 +12,25 @@ public class HashMain {
         Employee billEnd = new Employee("Bill", "End", 78);
 
         SimpleHashTable ht = new SimpleHashTable();
-        ht.put(janeJones,"jones");
-        ht.put(johnDoe,"doe");
-        ht.put(marySmith,"smith");
-        ht.put(mikeWilson,"wilson");
-        ht.put(billEnd,"end");
+        ht.put(janeJones, "jones");
+        ht.put(johnDoe, "doe");
+        ht.put(mikeWilson, "wilson");
+        ht.put(marySmith, "smith");
 
-//        ht.printHasTable();
+//        ht.put(billEnd,"end");
 
-        System.out.println("Retrieve an employee "+ht.get("doe"));
+
+        ht.printHasTable();
+
+        System.out.println("Retrieve an employee " + ht.get("smith"));
+        System.out.println("Retrieve an employee " + ht.get("wilson"));
+        ht.remove("wilson");
+        ht.remove("jones");
+        ht.printHasTable();
+
+        // here we can not find marry [Retrieve an employee null] due to find method, if we hit null we break our condition
+        System.out.println("Retrieve an employee " + ht.get("smith"));
+
 
     }
 }
