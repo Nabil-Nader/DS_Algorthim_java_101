@@ -58,6 +58,22 @@ public class TreeNode {
         return null;
     }
 
+    public int min() {
+        if (leftChild == null) {
+            return data;
+        } else {
+            return leftChild.min();
+        }
+    }
+
+    public int max() {
+        if (rightChild == null) {
+            return data;
+        } else {
+            return rightChild.max();
+        }
+    }
+
     public TreeNode(int data) {
         this.data = data;
     }
@@ -88,10 +104,6 @@ public class TreeNode {
 
     @Override
     public String toString() {
-        return "TreeNode{" +
-                "data=" + data +
-                ", leftChild=" + leftChild +
-                ", rightChild=" + rightChild +
-                '}';
+        return "TreeNode{" + "data=" + data + ", leftChild=" + leftChild + ", rightChild=" + rightChild + '}';
     }
 }
