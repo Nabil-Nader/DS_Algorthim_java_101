@@ -24,6 +24,7 @@ public class StackArray {
             throw new EmptyStackException();
         }
         Employee employee = stackEmployee[--top];
+        // Do a memory clean of the node that was just removed
         stackEmployee[top] = null;
         return employee;
     }
