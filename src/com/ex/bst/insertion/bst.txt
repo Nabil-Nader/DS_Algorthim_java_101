@@ -1,0 +1,25 @@
+    a
+b       c
+d       e   f
+
+1-PreOrder Traversals
+    visit root[print it]
+    visit left
+    visit right
+    a->b->d->c->e-f
+
+
+2- in-Order
+    visit left
+    visit root
+    visit left
+
+    d->b->a->e->c->f
+
+
+3-PostOrder
+    left
+    right
+    root
+
+    d->b->e->f->c->a
