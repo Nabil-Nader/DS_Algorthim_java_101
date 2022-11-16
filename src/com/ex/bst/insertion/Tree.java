@@ -5,7 +5,7 @@ public class Tree {
 
     // if the tree is empty then the node become the root,
     // if the tree isn't empty we're going to compare the value we're inserting against the root node.
-    private TreeNode root;
+    private TreeNode root; // head
 
 
     public void insert(int value) {

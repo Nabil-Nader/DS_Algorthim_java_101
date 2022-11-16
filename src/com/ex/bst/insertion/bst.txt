@@ -8,18 +8,52 @@ d       e   f
     visit right
     a->b->d->c->e-f
 
+    PreOrder (Node p){
+    if(p !=null){
+    print p.data
+     preOrder(p.left) // once there is no left[left is null] recursion will continue to execute the next statement
+     PreOrder(p.right)
+    }
+}
 
+    a
+b       c
+d       e   f
 2- in-Order
     visit left
     visit root
     visit left
 
     d->b->a->e->c->f
+    inOrder(Node p){
+        if(p !=null){
+        inOrder(p.lef)
+        print p.data
+        inOrder(p.right)
+        }
 
+    }
 
+    a
+b       c
+d       e   f
 3-PostOrder
     left
     right
     root
 
+    postOrder(Node p){
+    if(p !=null){
+       postOrder(p.left)
+       postOrder(p.right)
+       print(p.data)
+    }
+    }
+
     d->b->e->f->c->a
+
+
+
+// if we want to display in Order use Breadth-First Traversal -> it will do it as  queue and Dequeue
+
+
