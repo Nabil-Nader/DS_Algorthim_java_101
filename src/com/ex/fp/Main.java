@@ -7,23 +7,26 @@ public class Main {
     public static void main(String[] args) {
 
         EmailSender emailSender = new Gmail();
-        emailSender.send();
+        emailSender.send("");
 
         // we could replace this with lambda
         EmailSender amigosCode = new EmailSender() {
             @Override
-            public void send() {
+            public void send(String email) {
                 System.out.println("send email using override  .....");
             }
         };
-        amigosCode.send();
+        amigosCode.send("");
 
         //lambda is only consider lambda when there is only one method to override
-        EmailSender lambdaCode = () -> {
+        EmailSender lambdaCode = (email) -> {
+            // some logic
+            // more logic
+            var isValid = email.contains("@");
             System.out.println("send email using lambda  .....");
         };
 
-        lambdaCode.send();
+        lambdaCode.send("@");
 
 
 
