@@ -6,6 +6,7 @@ public class Main {
      */
     public static void main(String[] args) {
 
+/*
         EmailSender emailSender = new Gmail();
         emailSender.send("");
 
@@ -27,6 +28,20 @@ public class Main {
         };
 
         lambdaCode.send("@");
+
+
+
+*/
+
+        //   5 - Working with Lambdas adding a String in the Method
+
+        EmailSender gmail = (from, to) ->{
+            //logic
+            var isValid = to.contains("@");
+            System.out.println("sending to gamil...");
+        };
+
+        gmail.send("12x@gmail.com", "21x@gmail.com");
 
 
 
