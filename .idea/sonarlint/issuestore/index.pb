@@ -1,8 +1,6 @@
 
 R
 "src/com/ex/hash/StoreEmployee.java,e\1\e1f4d4a81429003dcfc1e40d9e6023af904a5a96
-S
-#src/com/ex/hash/ChainHashTable.java,5\6\56560f3e25c699bbae786c0468432df159a5d787
 P
  src/com/ex/sort/shell/Shell.java,8\e\8ec35d6e4def9ad28e6dd89a43de182ed869d153
 M
