@@ -1,0 +1,6 @@
+
+P	java:S125
+"<This block of commented-out lines of code should be removed.(Æé¥P
+N
+java:S1481%",Remove this unused "isValid" local variable.(×Ó”ÿÿÿÿÿ8°Ó…Ïİ0
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ÏŠ†‘üÿÿÿÿ

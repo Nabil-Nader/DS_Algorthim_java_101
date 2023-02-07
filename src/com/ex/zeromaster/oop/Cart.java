@@ -19,7 +19,7 @@ public class Cart {
     private BigDecimal totalGrossPrice;    // with taxes
     private BigDecimal totalTax;
     private Tax tax;
-    private Product[] products;
+//    private Product[] products;
     private int indexToAddNewProduct;
     private Discount discount;
 
