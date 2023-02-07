@@ -1,0 +1,11 @@
+
+_
+java:S1854"BRemove this useless assignment to local variable "stringConsumer".(Ñ ·É8¿•§ÈÝ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ ·É8±ïïËÝ0
+P
+java:S1481"3Remove this unused "stringConsumer" local variable.(Ñ ·É8Ç•§ÈÝ0
+]	java:S125"<This block of commented-out lines of code should be removed.(¦²úçþÿÿÿÿ8þ®¦ÈÝ0
+b
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(­Ê¤ùÿÿÿÿ8É•§ÈÝ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(­Ê¤ùÿÿÿÿ8À‡òËÝ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹Ä›³ýÿÿÿÿ8ªàˆÌÝ0

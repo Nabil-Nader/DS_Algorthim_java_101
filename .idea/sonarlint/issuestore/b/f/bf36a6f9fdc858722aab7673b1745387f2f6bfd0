@@ -1,0 +1,20 @@
+
+}
+java:S1104"bMake incrementByOneFunction a static final constant or non-public and provide accessors if needed.(ØÔ—Ñýÿÿÿÿ
+u
+java:S1104"ZMake doubleFunction a static final constant or non-public and provide accessors if needed.(ø²Á³øÿÿÿÿ
+W
+java:S1444"<Make this "public static incrementByOneFunction" field final(ØÔ—Ñýÿÿÿÿ
+O
+java:S1444"4Make this "public static doubleFunction" field final(ø²Á³øÿÿÿÿ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(ôÌ’÷þÿÿÿÿ
+q
+java:S4276
+"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(ç“¬Ôýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ì¥–Š
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ï½Å
+q
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(ØÔ—Ñýÿÿÿÿ
+w
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'UnaryOperator<Integer>'(ø²Á³øÿÿÿÿ
+V	java:S125E"<This block of commented-out lines of code should be removed.(œéü›úÿÿÿÿ

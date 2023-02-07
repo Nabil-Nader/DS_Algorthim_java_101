@@ -1,0 +1,13 @@
+
+\
+java:S1854":Remove this useless assignment to local variable "emails".(„ÆïËüÿÿÿÿ8²üíİ0
+V	java:S125"<This block of commented-out lines of code should be removed.(´ƒïåÿÿÿÿÿ
+M
+java:S1481"+Remove this unused "emails" local variable.(„ÆïËüÿÿÿÿ8¶üíİ0
+]	java:S125"<This block of commented-out lines of code should be removed.( ¼õøÿÿÿÿ8·üíİ0
+V	java:S125"<This block of commented-out lines of code should be removed.(Çî‡Ÿüÿÿÿÿ
+G
+java:S1602",Remove useless curly braces around statement(ÒÌâ–øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(±ÈÒıÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(µ¹™öøÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(±ÈÒıÿÿÿÿ

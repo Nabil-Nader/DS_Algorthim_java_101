@@ -1,0 +1,12 @@
+
+b
+java:S1192"GDefine a constant instead of duplicating this literal "wilson" 3 times.(°€œÑøÿÿÿÿ
+Q
+java:S1854";Remove this useless assignment to local variable "billEnd".(Ú€ù»
+B
+java:S1481",Remove this unused "billEnd" local variable.(Ú€ù»
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¹ÄÎê
+Q	java:S125"<This block of commented-out lines of code should be removed.(ûÜ£
+V	java:S125"<This block of commented-out lines of code should be removed.(¨ð°ƒýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(§†¤ê
+P	java:S125 "<This block of commented-out lines of code should be removed.(‹¡{
