@@ -16,14 +16,18 @@ public class ProgrmFunc {
     }
 
 
-    public static Function<Integer, Integer> incrementByOneFunction = num -> num + 1;
 
     public static Function<Integer, Integer> doubleFunction =
             n -> n * 2;
 
+    // pre function programming -> okay who to change this to use FP
     public static int incrementByOne(int n) {
         return n + 1;
     }
+
+    // the first type is the argument , and outPut -> they are both int
+    public static Function<Integer, Integer> incrementByOneFunction = num -> num + 1;
+
 
 
     static class Person {
